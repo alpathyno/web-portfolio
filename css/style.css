@@ -2,7 +2,7 @@
   --bg: #F8FAF7;      /* off-white */
   --navy: #0F1B3D;   /* teks utama */
   --green: #1D8F5E;  /* aksen */
-  --light-green: #73DDAF;
+  --light-green: #73ddaf6a;
   --green-dark: #166E48;
   --green-soft: #E6F5EE;
   --muted: #5B6478;
@@ -117,7 +117,7 @@ a { text-decoration: none; color: inherit; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgb(14, 118, 21);
+  background: rgb(108, 178, 113);
 }
 .browser-url {
   margin-left: 12px;
