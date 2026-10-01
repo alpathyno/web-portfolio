@@ -10,8 +10,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
+    <div class="bg" aria-hidden="true">
+      <div class="bg-dots"></div>
+      <div class="bg-glow"></div>
+    </div>
     <header class="nav">
       <a href="#home" class="logo">Thy<span>.</span></a>
       <nav>
@@ -23,7 +28,7 @@
 
     <main>
       <section id="home" class="hero">
-        <p class="hero-hi">Halo, aku Thy </p>
+        <p class="hero-hi">Halo, aku Thy</p>
         <h1>Penyuka web yang <span>minimalis</span> dan mudah dipakai.</h1>
         <p class="hero-desc">Saya hanya gabut.</p>
         <div class="hero-buttons">
@@ -60,7 +65,11 @@
                   </ul>
                   <div class="overlay-links">
                     <a href="#" class="btn btn-primary">Demo</a>
-                    <a href="https://github.com/alpathyno/stadionku.git" class="btn btn-light">GitHub</a>
+                    <a
+                      href="https://github.com/alpathyno/stadionku.git"
+                      class="btn btn-light"
+                      >GitHub</a
+                    >
                   </div>
                 </div>
               </div>
@@ -93,7 +102,11 @@
                   </ul>
                   <div class="overlay-links">
                     <a href="#" class="btn btn-primary">Demo</a>
-                    <a href="https://github.com/alpathyno/kopi-nusantara.git" class="btn btn-light">GitHub</a>
+                    <a
+                      href="https://github.com/alpathyno/kopi-nusantara.git"
+                      class="btn btn-light"
+                      >GitHub</a
+                    >
                   </div>
                 </div>
               </div>
@@ -116,14 +129,18 @@
                 <div class="overlay">
                   <p>Website untuk melacak dan mendata alumni.</p>
                   <ul class="tags">
-                    <Li>Laravel</Li>
+                    <li>Laravel</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                   </ul>
                   <div class="overlay-links">
                     <a href="#" class="btn btn-primary">Demo</a>
-                    <a href="https://github.com/alpathyno/Tracer-Study.git" class="btn btn-light">GitHub</a>
+                    <a
+                      href="https://github.com/alpathyno/Tracer-Study.git"
+                      class="btn btn-light"
+                      >GitHub</a
+                    >
                   </div>
                 </div>
               </div>
@@ -133,6 +150,59 @@
           </article>
         </div>
       </section>
+      <section id="about" class="section">
+        <h2 class="section-title">Tentang <span>aku</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Halo, aku Thy, mahasiswa yang suka membangun website. Aku senang
+              mengubah ide jadi halaman yang rapi, responsif, dan enak dipakai.
+            </p>
+            <p>
+              Portfolio ini aku buat di waktu luang sambil terus belajar. Tulis
+              hal lain tentang dirimu di sini.
+            </p>
+          </div>
+          <div class="about-skills">
+            <h3>Teknologi yang aku pakai</h3>
+            <ul class="tags">
+              <li>Laravel</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section-title">Yuk, <span>ngobrol</span></h2>
+        <p class="section-sub">
+          Punya ide, pertanyaan, atau sekadar mau menyapa? Silakan hubungi aku.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:emailkamu@gmail.com" class="btn btn-primary"
+            >Kirim Email</a
+          >
+          <a
+            href="https://github.com/usernamekamu"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/usernamekamu"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <p>© 2026 Thy. Dibuat dengan HTML & CSS di waktu gabut.</p>
+    </footer>
   </body>
 </html>
